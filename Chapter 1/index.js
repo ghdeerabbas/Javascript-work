@@ -1,10 +1,7 @@
-var a = 4;
-var b = !a;
-var c = !!b;
-
-console.log("a ="+a);
-console.log("b ="+b);
-console.log("c ="+c);
+var score = 73;
+var a = score > 50 && score < 80 && score == 73;
+var a = score > 50 && score < 80 && score == 34;
+console.log(a)
 
 
 
