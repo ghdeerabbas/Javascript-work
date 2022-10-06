@@ -1,8 +1,5 @@
-var score = 73;
-var a = score > 50 && score < 80 && score == 73;
-var a = score > 50 && score < 80 && score == 34;
-console.log(a)
+var a = 50;
 
-
+if (a > 60) {console.log("hello ghdeer abbas")} else{console.log("kia hall ha ghdeer abbas kia horha ha khuch nhi yar bss asy wyly byhty hn")}
 
 
