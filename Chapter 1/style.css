@@ -1,7 +1,15 @@
 #hero-section{
     background-image: url(./assest/OIP\ \(1\).jfif);
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:bottom center; 
     min-height: 70vh;
+    
+}
+#text{background-color:rgba(0, 0, 0, 0.60) ;
+display: inline;
+padding: 8px 16px;
+}
+.letter{
+    letter-spacing: 6px;
 }
