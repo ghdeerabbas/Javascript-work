@@ -13,3 +13,5 @@ padding: 8px 16px;
 .letter{
     letter-spacing: 6px;
 }
+.carousel-items img{
+    image-orientation: flip; }
