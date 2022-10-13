@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+h1{ 
+    text-align: center;
+}
+#ghd{
+    text-align: center;
+}
