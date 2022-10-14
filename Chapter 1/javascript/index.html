@@ -11,7 +11,13 @@
 <body>
     <header>
         <div id="ghd">
-            <h1>Heading 1</h1>
+            <h1>Content Change</h1>
+            <button onclick="styleChange();">Click Me</button>
+            <P id="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid quisquam minus explicabo quo consectetur. Amet cumque vel totam alias est. Sequi eligendi consectetur laudantium nostrum laborum consequatur aspernatur quas esse!
+
+            </P>
+            <button onclick="document.getElementById('jj').style.color='red'">color change</button>
+            <p id="jj">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ducimus magnam et.</p>
             <button style="padding:8px 16px ; display: inline-block; border: 0; background-color: lightgreen; border-radius: 4px; "  onclick="document.getElementById('demo').src='pic_bulbon.gif'">Turn on the bulb</button>
             <!-- <button onclick='document.getElementById("demo").src="pic_bulbon"'>click me to on the bulb </button> -->
 
@@ -19,9 +25,22 @@
         <button style="padding:8px 16px ; display: inline-block; border: 0; background-color: lightgreen; border-radius: 4px; " onclick="document.getElementById('demo').src='pic_bulboff.gif'">Turn off the bulb</button>
 
         </div>
+        <p id="hello"></p>
+        <button onclick="print();">print</button>
+        
 
     </header>
     <main>
+        <button 
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+        
+        
+
+
+
+    
+
 
     </main>
     <footer>
