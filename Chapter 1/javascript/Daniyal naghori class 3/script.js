@@ -70,3 +70,58 @@ const fruits2 = ["bananaa","orangee","applee"];
 fruits2.splice(2,0, "kiwi", )
 console.log(fruits2)
 
+
+
+// spice
+const fruits3 = ["bananaa","orangee", "apple", "ffr"];
+var phll = fruits3.slice(0)
+console.log(fruits3)
+console.log(phll)
+
+
+// OBJECT
+const person = {
+    name : "ghdeer abbas",
+    fathername : "zafar iqbal",
+    age : 22,
+    "eye-color" : "blue"
+}
+console.log(person)
+
+
+
+// LOOPS
+ for (var i = 0; i < 3 ; i++)
+//  console.log(i)
+ console.log("helo" +i)
+
+//  ARAAY& LOOPS
+
+var cleancities = ["krachi", "lahore","islamabad","pashawar"]
+
+for (var i = 0 ; i<=3; i++){
+    if("lahore" === cleancities[i])
+    console.log("it is the cleancities of pakistan")
+    // break
+}
+
+
+
+//EXAMPLE
+
+
+var fistname = ["ghder", "abbs ","ali" , "zarq" , "iqbal"]
+var latname = ["ghderer" ,"qasam", "saqlain" , "awais", "ali raza"];
+var fulname = []
+
+for (var i = 0 ;i < fistname.length ;i++){
+    
+    for(var j = 0 ; j < latname.length ; j++){
+        fulname.push(fistname[i] + latname[j]); 
+    // console.log(fulname) 
+    }
+    
+}
+console.log(fulname)
+
+
