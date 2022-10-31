@@ -125,3 +125,58 @@ for (var i = 0 ;i < fistname.length ;i++){
 console.log(fulname)
 
 
+
+// let ali= "ffrufd blue white black red"
+//  let ghd = " /blue/g ", "yellow"
+
+
+
+let hh = 123.76
+let gg = Math.round(hh)
+console.log(gg)
+
+
+//  console.log (math.)
+
+// Math.ceil and floor()
+
+// Math.random 0.000000000000000 - 0.99999999999999999999
+
+let x =Math.random() * 19
+
+console.log(x)
+
+// parseint()
+
+let g = parseInt("10.23")
+let s = parseInt("hello")
+console.log(s)
+console.log(g)
+
+
+// parsefloat
+
+let h = parseFloat("10.95")
+console.log(h)
+
+
+// Number
+let k =Number("10.23")
+let o = Number("hello")
+let y= Number(true)//1
+console.log(k)
+console.log(o)
+
+// typeoff
+let p = String(33)
+console.log(typeof p)
+
+// total.tofixed()
+let jj = 34.4434
+let ll = 
+
+
+
+
+
+
