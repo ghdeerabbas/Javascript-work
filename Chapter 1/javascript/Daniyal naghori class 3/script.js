@@ -126,11 +126,9 @@ console.log(fulname)
 
 
 
-// let ali= "ffrufd blue white black red"
-//  let ghd = " /blue/g ", "yellow"
 
 
-
+// roundOf
 let hh = 123.76
 let gg = Math.round(hh)
 console.log(gg)
@@ -142,16 +140,17 @@ console.log(gg)
 
 // Math.random 0.000000000000000 - 0.99999999999999999999
 
-let x =Math.random() * 19
+let f = Math.random() * 19
+console.log(f)
 
-console.log(x)
+// console.log(fff)
 
 // parseint()
 
-let g = parseInt("10.23")
+let kis= parseInt("10.23")
 let s = parseInt("hello")
 console.log(s)
-console.log(g)
+console.log(kis)
 
 
 // parsefloat
@@ -171,9 +170,55 @@ console.log(o)
 let p = String(33)
 console.log(typeof p)
 
-// total.tofixed()
-let jj = 34.4434
-let ll = 
+// // total.tofixed()
+// let jj = 34.4434
+// let ll = 
+
+// slice
+
+// let firstgh = "pakistan";
+
+// let hhhh = firstgh.slice(2, 5).toUpperCase()
+// let hhh = firstgh.slice(0, 1).toLocaleLowerCase()
+// console.log(hhhh)
+// console.log(hhh)
+
+
+// slice & if etc
+// let dd = prompt("enter your date of mnnth")
+
+// let mon = dd.length;
+
+// if(mon > 3){
+//     var marsh = dd.slice(0,1)
+// }
+// console.log(marsh)
+
+
+// indexof & lastindexof
+
+var bgt= "the ghdeer abbas kamboh"
+var jjj = bgt.indexOf("abbas")
+console.log(jjj)
+
+// charAt
+var ss = "ghd eer abb ass"
+
+var ccc = ss.toUpperCase().charAt(6)
+console.log(ccc)
+
+// replace
+
+var gjk = "ghdder abbas"
+var bnm = gjk.replace("abbas", "zarq")
+console.log(bnm)
+
+// relace
+let ali= "ffrufd blue white black blue"
+ let ghd = ali.replace( /blue/gi , "yellow")
+ console.log(ghd)
+
+
 
 
 
